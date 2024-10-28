@@ -28,6 +28,7 @@ public class Temp : MonoBehaviour
     {
         isWorking = false;
         clone = Instantiate(clone);
+        clone.GetComponent<Rigidbody2D>().isKinematic = true;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -35,15 +36,15 @@ public class Temp : MonoBehaviour
     void Update()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
-        rb.velocity = movement * moveSpeed;
+        Vector2 movement = new Vector2(moveHorizontal, 0.0f);
+        rb.position += movement * Time.fixedDeltaTime;
         if (Input.GetKeyDown(KeyCode.R))
         {
             StartCoroutine(ReplayCoroutine(0.12f));
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 
@@ -86,5 +87,7 @@ public class Temp : MonoBehaviour
             clone.transform.rotation = data.rotation;
             yield return new WaitForSeconds(interval); // 지정된 시간 간격 대기
         }
+        transformHistory.Clear();
+        isWorking = false;
     }
 }
