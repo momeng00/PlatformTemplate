@@ -902,11 +902,11 @@ GameObject:
   m_Component:
   - component: {fileID: 978986063}
   - component: {fileID: 978986067}
-  - component: {fileID: 978986066}
   - component: {fileID: 978986065}
   - component: {fileID: 978986064}
   - component: {fileID: 978986069}
   - component: {fileID: 978986068}
+  - component: {fileID: 978986070}
   m_Layer: 0
   m_Name: Player_6
   m_TagString: Untagged
@@ -991,27 +991,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.5}
   m_Size: {x: 0.8, y: 1}
   m_Direction: 0
---- !u!95 &978986066
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978986062}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf84a1689bbe5c94d91a2dbd196f35a0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &978986067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1108,7 +1087,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a61a4d8d5b2b7546a8125a611d70d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 978986066}
+  animator: {fileID: 978986070}
+--- !u!95 &978986070
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978986062}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 79e806b23ab08bb44a31ddf108973d31, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1202416486
 GameObject:
   m_ObjectHideFlags: 0
