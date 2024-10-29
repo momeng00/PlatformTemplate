@@ -5,10 +5,29 @@ public class PlayerController : CharacterController
 {
     public float jumpForce;
     public bool hasJumped;
+    private Vector2 expectPos;
     [SerializeField]private Switch _switch;
     [SerializeField]private float _switchDetectRange;
     [SerializeField]private LayerMask _switchMask;
 
+    public override void Move()
+    {
+        if (isMovable)
+        {
+            expectPos = (Vector2)transform.position + move* 0.1f;
+            Debug.DrawLine(expectPos, expectPos + Vector2.down);
+            
+            if(!Physics2D.Raycast(expectPos + _groundDetectOffset,
+                                          Vector2.down,
+                                          3f,
+                                          groundMask))
+            {
+                return;
+            }
+            
+            rb.position += move * Time.fixedDeltaTime;
+        }
+    }
     protected override void Start()
     {
         base.Start();

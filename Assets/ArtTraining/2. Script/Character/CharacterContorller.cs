@@ -44,9 +44,9 @@ public abstract class CharacterController : MonoBehaviour
 
     public Collider2D ground;
     public Collider2D groundBelow;
-    [SerializeField] private Vector2 _groundDetectOffset;
-    [SerializeField] private Vector2 _groundDetectSize;
-    [SerializeField] private float _groundBelowDetectDistance;
+    [SerializeField] protected Vector2 _groundDetectOffset;
+    [SerializeField] protected Vector2 _groundDetectSize;
+    [SerializeField] protected float _groundBelowDetectDistance;
     [SerializeField] protected LayerMask groundMask;
     #endregion Ground Detection
     private float _direction;
@@ -83,7 +83,7 @@ public abstract class CharacterController : MonoBehaviour
     public Rigidbody2D rb;
     public float horizontal;
 
-    public void Move()
+    public virtual void Move()
     {
         if (isMovable)
         {
