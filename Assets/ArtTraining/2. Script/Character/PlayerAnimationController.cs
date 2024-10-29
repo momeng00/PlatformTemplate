@@ -44,6 +44,7 @@ public class PlayerAnimationController : AnimationController
 
     public override void Update()
     {
+        Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
         base.Update();
         if (state == PlayerState.Jump && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
