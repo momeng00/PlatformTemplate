@@ -12,21 +12,20 @@ public class PlayerController : CharacterController
 
     public override void Move()
     {
-        if (isMovable)
+        if (isMovable && !hasJumped)
         {
-            expectPos = (Vector2)transform.position + move* 0.1f;
+            expectPos = (Vector2)transform.position + move * 0.1f;
             Debug.DrawLine(expectPos, expectPos + Vector2.down);
             
             if(!Physics2D.Raycast(expectPos + _groundDetectOffset,
                                           Vector2.down,
-                                          3f,
+                                          1f,
                                           groundMask))
             {
                 return;
             }
-            
-            rb.position += move * Time.fixedDeltaTime;
         }
+        rb.position += move * Time.fixedDeltaTime;
     }
     protected override void Start()
     {
