@@ -1057,8 +1057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ground: {fileID: 0}
   groundBelow: {fileID: 0}
-  _groundDetectOffset: {x: 0.08, y: -0.04}
-  _groundDetectSize: {x: 0.1, y: 0.1}
+  _groundDetectOffset: {x: 0, y: -0.04}
+  _groundDetectSize: {x: 0.32, y: 0.08}
   _groundBelowDetectDistance: 1
   groundMask:
     serializedVersion: 2
@@ -1087,7 +1087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a61a4d8d5b2b7546a8125a611d70d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 978986070}
+  animator: {fileID: 0}
+  _state: 0
+  nextState: 0
 --- !u!95 &978986070
 Animator:
   serializedVersion: 5

@@ -11,22 +11,29 @@ public enum PlayerState
 public class PlayerAnimationController : AnimationController
 {
     PlayerController player;
-    PlayerState _state;
+    [SerializeField]PlayerState _state;
+    [SerializeField]PlayerState nextState;
     PlayerState state
     {
         get => _state;
         set
         {
+            if(_state == value)
+            {
+                return;
+            }
             _state = value;
             switch (value)
             {
                 case PlayerState.Idle:
+                    animator.SetBool("isJump", false);
                     animator.SetBool("isWalk",false);
                     break;
                 case PlayerState.Jump:
                     animator.SetBool("isJump", true);
                     break;
                 case PlayerState.Walk:
+                    animator.SetBool("isJump", false);
                     animator.SetBool("isWalk", true);
                     break;
                 case PlayerState.Die:
@@ -44,26 +51,28 @@ public class PlayerAnimationController : AnimationController
 
     public override void Update()
     {
-        Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
         base.Update();
-        if (state == PlayerState.Jump && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
-        {
-            animator.SetBool("isJump", false);
-        }
         if (player.hasJumped)
         {
-            state = PlayerState.Jump;
+            nextState = PlayerState.Jump;
         }
         else
         {
-            if(player.horizontal != 0){
-                state = PlayerState.Walk;
+            if (player.horizontal != 0){
+                nextState = PlayerState.Walk;
             }
             else
             {
-                state = PlayerState.Idle;
+                nextState = PlayerState.Idle;
             }
-
+        }
+        EnterState(nextState);
+    }
+    public void EnterState(PlayerState state)
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+        {
+            this.state = state;
         }
     }
 }
