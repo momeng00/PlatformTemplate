@@ -11,7 +11,9 @@ public class PlayerController : CharacterController
     [SerializeField]private LayerMask _switchMask;
 
     public override void Move()
-    {
+    {   
+        base.Move();
+        /*
         if (isMovable && !hasJumped)
         {
             expectPos = (Vector2)transform.position + move * 0.1f;
@@ -26,6 +28,7 @@ public class PlayerController : CharacterController
             }
         }
         rb.position += move * Time.fixedDeltaTime;
+        */
     }
     protected override void Start()
     {
