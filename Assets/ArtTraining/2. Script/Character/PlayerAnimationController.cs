@@ -70,9 +70,9 @@ public class PlayerAnimationController : AnimationController
     }
     public void EnterState(PlayerState state)
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
-        {
-            this.state = state;
-        }
+        /* if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+        { }*/
+        this.state = state;
+
     }
 }
