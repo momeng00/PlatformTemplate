@@ -60,7 +60,6 @@ public class PlayerAnimationController : AnimationController
         {
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("Die") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f)
             {
-                EnterState(PlayerState.Idle);
                 isDirty = false;
                 player.transform.position=player.respawn;
                 player.BlinkPlayer();
@@ -69,6 +68,10 @@ public class PlayerAnimationController : AnimationController
             return;
         }
         base.Update();
+        if (!player.isMovable)
+        {
+            return;
+        }
         if (player.hasJumped)
         {
             nextState = PlayerState.Jump;
@@ -95,9 +98,9 @@ public class PlayerAnimationController : AnimationController
     public void Die()
     {
         isDirty = true;
-        nextState = PlayerState.Die;
-        StartCoroutine(CameraEffect());
-        EnterState(nextState);
+        state = PlayerState.Idle;
+        EnterState(PlayerState.Die);
+        StartCoroutine(CameraEffect());  
     }
     IEnumerator CameraEffect()
     {
