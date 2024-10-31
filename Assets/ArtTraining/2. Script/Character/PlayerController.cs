@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -10,7 +11,8 @@ public class PlayerController : CharacterController
     [SerializeField]private Switch _switch;
     [SerializeField]private float _switchDetectRange;
     [SerializeField]private LayerMask _switchMask;
-    private Vector2 respawn;
+    public Vector2 respawn;
+    public event Action OnDie;
     public override void Move()
     {   
         base.Move();
@@ -93,9 +95,10 @@ public class PlayerController : CharacterController
 
     public void ReSpawn()
     {
-        transform.position = respawn;
-        StartCoroutine(BlinkChracter());
-        
+        isMovable = false;
+        Stop();
+        rb.isKinematic = true;
+        OnDie?.Invoke();
     }
     protected override void OnDrawGizmosSelected()
     {
@@ -103,13 +106,16 @@ public class PlayerController : CharacterController
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, _switchDetectRange);
     }
-    
-    IEnumerator BlinkChracter()
+    public void BlinkPlayer()
+    {
+        StartCoroutine(BlinkChracter());
+    }
+
+    public IEnumerator BlinkChracter()
     {
         Color color = gameObject.GetComponent<SpriteRenderer>().color;
         bool blinkSwitch = true;
-        isMovable = false;
-        for (int i=0; i<=6; i++)
+        for (int i = 0; i <= 6; i++)
         {
             if (blinkSwitch)
             {
@@ -126,6 +132,7 @@ public class PlayerController : CharacterController
             yield return new WaitForSeconds(0.1f);
         }
         isMovable = true;
+        rb.isKinematic = false;
         color.a = 1f;
         gameObject.GetComponent<SpriteRenderer>().color = color;
         yield return null;

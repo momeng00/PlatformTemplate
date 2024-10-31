@@ -13,6 +13,7 @@ public class PlayerAnimationController : AnimationController
     PlayerController player;
     [SerializeField]PlayerState _state;
     [SerializeField]PlayerState nextState;
+    bool isDirty = false;
     PlayerState state
     {
         get => _state;
@@ -37,6 +38,7 @@ public class PlayerAnimationController : AnimationController
                     animator.SetBool("isWalk", true);
                     break;
                 case PlayerState.Die:
+                    animator.Play("Die");
                     break;
                 default:
                     break;
@@ -47,10 +49,21 @@ public class PlayerAnimationController : AnimationController
     {
         base.Start();
         player = GetComponent<PlayerController>();
+        player.OnDie += Die;
     }
 
     public override void Update()
     {
+        if (isDirty)
+        {
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Die") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f)
+            { 
+                isDirty = false;
+                player.transform.position=player.respawn;
+                player.BlinkPlayer();
+            }
+            return;
+        }
         base.Update();
         if (player.hasJumped)
         {
@@ -74,5 +87,11 @@ public class PlayerAnimationController : AnimationController
         { }*/
         this.state = state;
 
+    }
+    public void Die()
+    {
+        isDirty = true;
+        nextState = PlayerState.Die;
+        EnterState(nextState);
     }
 }

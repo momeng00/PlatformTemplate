@@ -92,7 +92,7 @@ public abstract class CharacterController : MonoBehaviour
     public void Stop()
     {
         move = Vector2.zero; 
-        rb.velocity = Vector2.zero; 
+        rb.velocity = Vector2.zero;
     }
 
     // Start is called before the first frame update
