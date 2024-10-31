@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: RuleTile_floor
+  m_Name: RuleTile_Grass_Floor
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 1455692495, guid: afb0f17ea7c6b124687b6214d022486a, type: 3}
   m_DefaultGameObject: {fileID: 0}
