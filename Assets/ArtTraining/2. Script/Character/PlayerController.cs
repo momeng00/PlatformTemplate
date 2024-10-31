@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -9,7 +10,7 @@ public class PlayerController : CharacterController
     [SerializeField]private Switch _switch;
     [SerializeField]private float _switchDetectRange;
     [SerializeField]private LayerMask _switchMask;
-
+    private Vector2 respawn;
     public override void Move()
     {   
         base.Move();
@@ -33,12 +34,17 @@ public class PlayerController : CharacterController
     protected override void Start()
     {
         base.Start();
+        respawn = transform.position;
         isMovable = true;
     }
 
     protected override void Update()
     {
         base.Update();
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ReSpawn();
+        }
         if (isMovable)
         {
             horizontal = Input.GetAxis("Horizontal");
@@ -84,6 +90,13 @@ public class PlayerController : CharacterController
             return;
         }
     }
+
+    public void ReSpawn()
+    {
+        transform.position = respawn;
+        StartCoroutine(BlinkChracter());
+        
+    }
     protected override void OnDrawGizmosSelected()
     {
         base.OnDrawGizmosSelected();
@@ -91,4 +104,30 @@ public class PlayerController : CharacterController
         Gizmos.DrawWireSphere(transform.position, _switchDetectRange);
     }
     
+    IEnumerator BlinkChracter()
+    {
+        Color color = gameObject.GetComponent<SpriteRenderer>().color;
+        bool blinkSwitch = true;
+        isMovable = false;
+        for (int i=0; i<=6; i++)
+        {
+            if (blinkSwitch)
+            {
+                blinkSwitch = !blinkSwitch;
+                color.a = 0.35f;
+                gameObject.GetComponent<SpriteRenderer>().color = color;
+            }
+            else
+            {
+                blinkSwitch = !blinkSwitch;
+                color.a = 0.7f;
+                gameObject.GetComponent<SpriteRenderer>().color = color;
+            }
+            yield return new WaitForSeconds(0.1f);
+        }
+        isMovable = true;
+        color.a = 1f;
+        gameObject.GetComponent<SpriteRenderer>().color = color;
+        yield return null;
+    }
 }
