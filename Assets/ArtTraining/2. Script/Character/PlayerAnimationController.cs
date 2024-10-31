@@ -10,6 +10,7 @@ public enum PlayerState
 }
 public class PlayerAnimationController : AnimationController
 {
+    private Camera _camera;
     PlayerController player;
     [SerializeField]PlayerState _state;
     [SerializeField]PlayerState nextState;
@@ -48,6 +49,7 @@ public class PlayerAnimationController : AnimationController
     public override void Start()
     {
         base.Start();
+        _camera = Camera.main;
         player = GetComponent<PlayerController>();
         player.OnDie += Die;
     }
@@ -57,10 +59,12 @@ public class PlayerAnimationController : AnimationController
         if (isDirty)
         {
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("Die") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f)
-            { 
+            {
+                EnterState(PlayerState.Idle);
                 isDirty = false;
                 player.transform.position=player.respawn;
                 player.BlinkPlayer();
+                
             }
             return;
         }
@@ -92,6 +96,20 @@ public class PlayerAnimationController : AnimationController
     {
         isDirty = true;
         nextState = PlayerState.Die;
+        StartCoroutine(CameraEffect());
         EnterState(nextState);
+    }
+    IEnumerator CameraEffect()
+    {
+        for(int i = 0; i <= 4; i++)
+        {
+            _camera.transform.position += Vector3.right*0.1f;
+            yield return new WaitForSeconds(0.07f);
+            _camera.transform.position += Vector3.left * 0.1f;
+            _camera.transform.position += Vector3.left * 0.1f;
+            yield return new WaitForSeconds(0.07f);
+            _camera.transform.position += Vector3.right * 0.1f;
+        }
+        yield return null;
     }
 }

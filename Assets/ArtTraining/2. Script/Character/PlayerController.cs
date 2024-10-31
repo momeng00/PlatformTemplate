@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 using static UnityEngine.GraphicsBuffer;
 
 public class PlayerController : CharacterController
@@ -96,6 +97,7 @@ public class PlayerController : CharacterController
     public void ReSpawn()
     {
         isMovable = false;
+        horizontal = 0;
         Stop();
         rb.isKinematic = true;
         OnDie?.Invoke();
