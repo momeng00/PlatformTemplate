@@ -10,6 +10,18 @@ public enum PlayerState
 }
 public class PlayerAnimationController : AnimationController
 {
+    private PlayerAnimationController _instance;
+    public PlayerAnimationController instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = this;
+            }
+            return _instance;
+        }
+    }
     private Camera _camera;
     PlayerController player;
     [SerializeField]PlayerState _state;
