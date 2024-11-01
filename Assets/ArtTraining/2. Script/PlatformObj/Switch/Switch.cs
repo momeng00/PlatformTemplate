@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Switch : MonoBehaviour
 {
-    [SerializeField]public List<Switchable> block;
+    [SerializeField]public Switchable[] block;
     public bool used = false;
 
     public void Use()

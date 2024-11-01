@@ -51,12 +51,11 @@ public class PlayerController : CharacterController
         {
             horizontal = Input.GetAxis("Horizontal");
             direction = horizontal;
-        }
-
-        if (!hasJumped & Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.AddForce(Vector2.up * jumpForce,ForceMode2D.Impulse);
-            hasJumped = true;
+            if (!hasJumped & Input.GetKeyDown(KeyCode.Space))
+            {
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                hasJumped = true;
+            }
         }
 
         if (hasJumped & isGrounded & rb.velocity.y <= 0)

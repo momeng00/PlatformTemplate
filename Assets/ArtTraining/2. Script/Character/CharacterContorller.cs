@@ -76,7 +76,7 @@ public abstract class CharacterController : MonoBehaviour
             }
         }
     }
-    public float moveSpeed;
+    [HideInInspector] public float moveSpeed= 10f;
     public bool isMovable;
     public Vector2 move;
     public Rigidbody2D rb;
@@ -84,10 +84,7 @@ public abstract class CharacterController : MonoBehaviour
 
     public virtual void Move()
     {
-        if (isMovable)
-        {
-            rb.position += move * Time.fixedDeltaTime;
-        }
+        rb.position += move * Time.fixedDeltaTime;
     }
     public void Stop()
     {
