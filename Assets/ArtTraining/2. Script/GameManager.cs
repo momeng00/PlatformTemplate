@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,9 +17,25 @@ public class GameManager : MonoBehaviour
             return _instance;
         }
     }
-
+    public string nextScene;
     public float soundVolume;
-    public int forGameClear;
+    private int _score;
+    public int forGameClear
+    {
+        get
+        {
+            return _score;
+        }
+        set 
+        { 
+            _score = value;
+            if (_score >= 2)
+            {
+                Invoke("NextScene",0.9f);
+            }
+
+        }
+    }
 
     public void ClearGameManager()
     {
@@ -27,5 +44,10 @@ public class GameManager : MonoBehaviour
     public void GetGamePoint()
     {
         forGameClear++;
+    }
+    public void NextScene()
+    {
+        ClearGameManager();
+        SceneManager.LoadSceneAsync(nextScene);
     }
 }

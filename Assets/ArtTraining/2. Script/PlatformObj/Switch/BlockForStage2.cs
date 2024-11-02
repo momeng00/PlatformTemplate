@@ -13,7 +13,6 @@ public class BlockForStage2 : Switchable, IReset
 {
     private Animator ani;
     public TMP_Text text;
-    public Vector2 textPos;
     public string textValue;
     private BoxCollider2D col;
     bool isWork;
@@ -29,10 +28,6 @@ public class BlockForStage2 : Switchable, IReset
         col =GetComponent<BoxCollider2D>();
         ani=GetComponent<Animator>();
         ChangeState(BlockState.Off);
-        if (text != null)
-        {
-            text.GetComponent<RectTransform>().position = Camera.main.WorldToScreenPoint(textPos);
-        }
     }
 
     // Update is called once per frame
@@ -90,7 +85,7 @@ public class BlockForStage2 : Switchable, IReset
                         break;
                     }
                     text.text += c;
-                    yield return new WaitForSeconds(0.2f);
+                    yield return new WaitForSeconds(0.09f);
                 }
                 isWork = false;
             }
