@@ -19,7 +19,7 @@ public abstract class Block : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController py = collision.gameObject.GetComponent<PlayerController>();
-            py.moveSpeed = 5f;
+            py.moveSpeed = 4f;
             if (collision.gameObject.transform.position.y > transform.position.y)
             {
                 Use();
@@ -31,7 +31,7 @@ public abstract class Block : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController py = collision.gameObject.GetComponent<PlayerController>();
-            py.moveSpeed = 10f;
+            py.moveSpeed = 8f;
         }
     }
     public virtual void Use()

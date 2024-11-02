@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class DamageObject : MonoBehaviour
 {
-    IReset[] resettableObjects;
     private void Start()
     {
-        resettableObjects = FindObjectsOfType<MonoBehaviour>().OfType<IReset>().ToArray();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,11 +25,7 @@ public class DamageObject : MonoBehaviour
                     playerController.ReSpawn();
                 }
             }
-            
-            foreach (IReset resettable in resettableObjects)
-            {
-                resettable.Reset(); // Reset() 메서드 호출
-            }
+           
         }
     }
 }

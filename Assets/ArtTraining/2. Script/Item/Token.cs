@@ -27,6 +27,14 @@ public class Token : Item, IReset
             gameObject.SetActive(false);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            GameManager.instance.GetGamePoint();
+            gameObject.SetActive(false);
+        }
+    }
 
     public void Reset()
     { 

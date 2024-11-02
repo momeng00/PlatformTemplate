@@ -1,10 +1,12 @@
 using System;
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
 public class PlayerController : CharacterController
 {
+    IReset[] resettableObjects;
     public float jumpForce;
     public bool hasJumped;
     private Vector2 expectPos;
@@ -14,8 +16,10 @@ public class PlayerController : CharacterController
     public Vector2 respawn;
     public event Action OnDie;
     public override void Move()
-    {   
+    {
+    
         base.Move();
+        CheckForWall();
         /*
         if (isMovable && !hasJumped)
         {
@@ -33,11 +37,22 @@ public class PlayerController : CharacterController
         rb.position += move * Time.fixedDeltaTime;
         */
     }
+    void CheckForWall()
+    {
+        Vector2 wallTopCastCenter = rb.position + Vector2.up * 0.5f;
+        RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.2f, groundMask);
+        if(topHit)
+        {
+            rb.AddForce(Vector2.right * direction *-2f,ForceMode2D.Impulse);
+        }
+    }
+
     protected override void Start()
     {
         base.Start();
         respawn = transform.position;
         isMovable = true;
+        resettableObjects = FindObjectsOfType<MonoBehaviour>().OfType<IReset>().ToArray();
     }
 
     protected override void Update()
@@ -75,7 +90,7 @@ public class PlayerController : CharacterController
         {
             // 타겟 감지
             Collider2D col
-                = Physics2D.OverlapCircle(rb.position, _switchDetectRange, _switchMask);
+                = Physics2D.OverlapCircle(rb.position + (Vector2.up*0.5f), _switchDetectRange, _switchMask);
 
             if (col) { 
                 Switch isSwitch = col.GetComponent<Switch>();
@@ -99,12 +114,16 @@ public class PlayerController : CharacterController
         Stop();
         rb.isKinematic = true;
         OnDie?.Invoke();
+        foreach (IReset resettable in resettableObjects)
+        {
+            resettable.Reset(); // Reset() 메서드 호출
+        }
     }
     protected override void OnDrawGizmosSelected()
     {
         base.OnDrawGizmosSelected();
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, _switchDetectRange);
+        Gizmos.DrawWireSphere(transform.position + Vector3.up *0.5f, _switchDetectRange);
     }
     public void BlinkPlayer()
     {
