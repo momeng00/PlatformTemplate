@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ArtTraining/5. Scene/Template/Start.unity
-    guid: 810d6c9e8678d4945b5e605c32710cdc
+    path: Assets/ArtTraining/5. Scene/GameJam/Start.unity
+    guid: 976768538dc39e44086da9cb8355d9d6
   - enabled: 1
-    path: Assets/ArtTraining/5. Scene/Template/Tilemap.unity
-    guid: 717f2480c912b324d96c8ff8702b0e7a
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage1.unity
+    guid: f8a4d6be42e12764485d7a7e752a4d10
   - enabled: 1
-    path: Assets/ArtTraining/5. Scene/Template/Ending.unity
-    guid: ab360dadf6d35ae4ca9b8d7a1b35a9c9
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage2.unity
+    guid: c40490f9bff50d642889f2929cd4a638
+  - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam/Ending.unity
+    guid: 7e49727adb1229149bb895b21fcfc35a
   m_configObjects: {}
