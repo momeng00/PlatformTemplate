@@ -22,6 +22,7 @@ public abstract class Block : MonoBehaviour
             py.moveSpeed = 4f;
             if (collision.gameObject.transform.position.y > transform.position.y)
             {
+                py.moveSpeed = 8f;
                 Use();
             }
         }
