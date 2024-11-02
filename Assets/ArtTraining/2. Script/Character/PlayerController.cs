@@ -14,8 +14,10 @@ public class PlayerController : CharacterController
     public Vector2 respawn;
     public event Action OnDie;
     public override void Move()
-    {   
+    {
+    
         base.Move();
+        CheckForWall();
         /*
         if (isMovable && !hasJumped)
         {
@@ -33,6 +35,16 @@ public class PlayerController : CharacterController
         rb.position += move * Time.fixedDeltaTime;
         */
     }
+    void CheckForWall()
+    {
+        Vector2 wallTopCastCenter = rb.position + Vector2.up * 0.5f;
+        RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.2f, groundMask);
+        if(topHit)
+        {
+            rb.AddForce(Vector2.right * direction *-2f,ForceMode2D.Impulse);
+        }
+    }
+
     protected override void Start()
     {
         base.Start();

@@ -4224,6 +4224,7 @@ MonoBehaviour:
   isMovable: 0
   move: {x: 0, y: 0}
   rb: {fileID: 0}
+  col: {fileID: 0}
   horizontal: 0
   jumpForce: 12.8
   hasJumped: 0
@@ -11349,6 +11350,7 @@ MonoBehaviour:
   isMovable: 0
   move: {x: 0, y: 0}
   rb: {fileID: 0}
+  col: {fileID: 0}
   horizontal: 0
   jumpForce: 12.8
   hasJumped: 0
