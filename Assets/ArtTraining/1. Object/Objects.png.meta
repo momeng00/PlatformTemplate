@@ -142,7 +142,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spike
+      name: Objects_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: -0.02484417, y: -0.08764839}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9164ad8c64560b6429f96982d09eb3eb
+      internalID: -422688068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objects_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.608696, y: 7.58247}
+        - {x: -3.6977234, y: -6.5065556}
+        - {x: -3.6977215, y: -7.9240856}
+        - {x: 4.1283646, y: -8}
+        - {x: 5.9123535, y: 7.1649437}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef03ae3ae0bf24645b7419a7bf6aa34a
+      internalID: 1498114338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objects_2
       rect:
         serializedVersion: 2
         x: 0
@@ -154,19 +204,19 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 0, y: 0}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
+      - - {x: -8, y: 8}
+        - {x: -0.051069736, y: 0.049689293}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
-      spriteID: b2434d87a08d82360800000000000000
-      internalID: 7145198348311737387
+      spriteID: 0c451d90e2451bb4292d6669f83c0e34
+      internalID: 1333248827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Finish
+      name: Objects_3
       rect:
         serializedVersion: 2
         x: 17
@@ -178,15 +228,15 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -3, y: 8}
-        - {x: -3, y: -6}
-        - {x: -5, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+      - - {x: -6.595583, y: 7.7342987}
+        - {x: -6.0641823, y: -8}
+        - {x: 1.001379, y: -8}
+        - {x: 3.9254665, y: 6.4685984}
+        - {x: 3.8495522, y: 7.9240856}
       tessellationDetail: 0
       bones: []
-      spriteID: 011a6d2935bb88cc0800000000000000
-      internalID: -3708508325519384304
+      spriteID: cf882d5159c3eaa4ebb26ee45dce72a2
+      internalID: -1637132246
       vertices: []
       indices: 
       edges: []
@@ -202,8 +252,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Finish: -3708508325519384304
-      Spike: 7145198348311737387
+      Objects_0: -422688068
+      Objects_1: 1498114338
+      Objects_2: 1333248827
+      Objects_3: -1637132246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
