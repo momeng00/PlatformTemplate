@@ -18,20 +18,13 @@ public class Token : Item, IReset
     {
         base.Update();
     }
-    public override void OnCollisionEnter2D(Collision2D collision)
-    {
-        base.OnCollisionEnter2D(collision);
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            GameManager.instance.GetGamePoint();
-            gameObject.SetActive(false);
-        }
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             GameManager.instance.GetGamePoint();
+            GameManager.instance.gameObject.GetComponent<AudioManager>().Play("Token");
             gameObject.SetActive(false);
         }
     }

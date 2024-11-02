@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
             _score = value;
             if (_score >= 2)
             {
+                gameObject.GetComponent<AudioManager>().Play("Clear");
                 Invoke("NextScene",0.9f);
             }
 
@@ -47,7 +48,7 @@ public class GameManager : MonoBehaviour
     }
     public void NextScene()
     {
-        ClearGameManager();
+        ClearGameManager(); 
         SceneManager.LoadSceneAsync(nextScene);
     }
 }

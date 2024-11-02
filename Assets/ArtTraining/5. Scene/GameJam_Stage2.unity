@@ -817,7 +817,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1897,7 +1897,6 @@ GameObject:
   m_Component:
   - component: {fileID: 377825655}
   - component: {fileID: 377825657}
-  - component: {fileID: 377825656}
   - component: {fileID: 377825658}
   - component: {fileID: 377825659}
   m_Layer: 9
@@ -1922,27 +1921,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1015571579}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &377825656
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377825654}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 413fe3d20ae76c4449723d433c3347d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &377825657
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1983,7 +1961,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -411310900, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2010,6 +1988,8 @@ MonoBehaviour:
   block:
   - {fileID: 637400561}
   used: 0
+  turnOn: {fileID: -112666018, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
+  moveSpeed: 0
 --- !u!58 &377825659
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2918,7 +2898,6 @@ GameObject:
   m_Component:
   - component: {fileID: 590851865}
   - component: {fileID: 590851867}
-  - component: {fileID: 590851866}
   - component: {fileID: 590851869}
   - component: {fileID: 590851868}
   m_Layer: 9
@@ -2943,27 +2922,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 913347463}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &590851866
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590851864}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 413fe3d20ae76c4449723d433c3347d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &590851867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3004,7 +2962,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -411310900, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3066,6 +3024,8 @@ MonoBehaviour:
   block:
   - {fileID: 1026098755}
   used: 0
+  turnOn: {fileID: -650320351, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
+  moveSpeed: 0
 --- !u!1 &619398028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3930,7 +3890,7 @@ Transform:
   m_GameObject: {fileID: 913347462}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.02, y: -3.31, z: 0}
+  m_LocalPosition: {x: 3, y: -3.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4639,7 +4599,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1048711893}
   - component: {fileID: 1048711895}
-  - component: {fileID: 1048711894}
   - component: {fileID: 1048711896}
   - component: {fileID: 1048711897}
   m_Layer: 9
@@ -4664,27 +4623,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1691227354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1048711894
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048711892}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 413fe3d20ae76c4449723d433c3347d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1048711895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4725,7 +4663,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -411310900, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4752,6 +4690,8 @@ MonoBehaviour:
   block:
   - {fileID: 1353929315}
   used: 0
+  turnOn: {fileID: -112666018, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
+  moveSpeed: 0
 --- !u!58 &1048711897
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4837,7 +4777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.02745098, g: 0.08627451, b: 0.08235294, a: 0.60784316}
+  m_Color: {r: 0.02745098, g: 0.08627451, b: 0.08235294, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4955,7 +4895,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12716,6 +12656,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1705794774}
   - component: {fileID: 1705794773}
+  - component: {fileID: 1705794775}
+  - component: {fileID: 1705794776}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -12736,7 +12678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Ending
-  soundVolume: 0
+  soundVolume: 0.5
 --- !u!4 &1705794774
 Transform:
   m_ObjectHideFlags: 0
@@ -12752,6 +12694,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1705794775
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705794772}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1705794776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705794772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24843f17bcbf4ba4cb880a977211be3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BGM
+    clip: {fileID: 8300000, guid: 370b870594084e747bd1a56e0c68fbca, type: 3}
+    source: {fileID: 0}
+  - name: Clear
+    clip: {fileID: 8300000, guid: 95f30b8b6674a294fb392e5919df0613, type: 3}
+    source: {fileID: 0}
+  - name: Die
+    clip: {fileID: 8300000, guid: 956f6d266db2a3646b605cdc741d6114, type: 3}
+    source: {fileID: 0}
+  - name: Switch
+    clip: {fileID: 8300000, guid: 9038acb53ef669f4f8d7599fed6f40e3, type: 3}
+    source: {fileID: 0}
+  - name: Token
+    clip: {fileID: 8300000, guid: d76b6f73df343194fa7f4bedcbf83236, type: 3}
+    source: {fileID: 0}
 --- !u!114 &1727303103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13006,7 +13072,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1760971801}
   - component: {fileID: 1760971803}
-  - component: {fileID: 1760971802}
   - component: {fileID: 1760971804}
   - component: {fileID: 1760971805}
   m_Layer: 9
@@ -13031,27 +13096,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 550133354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1760971802
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760971800}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 413fe3d20ae76c4449723d433c3347d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1760971803
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13092,7 +13136,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -411310900, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13119,6 +13163,8 @@ MonoBehaviour:
   block:
   - {fileID: 337109511}
   used: 0
+  turnOn: {fileID: -112666018, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
+  moveSpeed: 0
 --- !u!58 &1760971805
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14304,7 +14350,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2124891424}
   - component: {fileID: 2124891426}
-  - component: {fileID: 2124891425}
   - component: {fileID: 2124891428}
   - component: {fileID: 2124891427}
   m_Layer: 9
@@ -14329,27 +14374,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1104546507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2124891425
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124891423}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 413fe3d20ae76c4449723d433c3347d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &2124891426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14390,7 +14414,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -411310900, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14452,6 +14476,8 @@ MonoBehaviour:
   block:
   - {fileID: 1670368268}
   used: 0
+  turnOn: {fileID: -112666018, guid: 2df7472bf1abbed4598b8b08051bc89b, type: 3}
+  moveSpeed: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

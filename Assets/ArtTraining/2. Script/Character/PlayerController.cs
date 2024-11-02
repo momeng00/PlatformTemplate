@@ -96,12 +96,16 @@ public class PlayerController : CharacterController
                 Switch isSwitch = col.GetComponent<Switch>();
                 if (isSwitch != null)
                 {
+                    if (_switch)
+                        return;
+                    isSwitch.DetectedSwitch();
                     _switch = isSwitch;
                 }
             }
         }
         if (_switch != null && Vector2.Distance(transform.position, _switch.transform.position) > _switchDetectRange)
         {
+            _switch.UnDetectedSwitch();
             _switch = null;
             return;
         }
@@ -113,6 +117,7 @@ public class PlayerController : CharacterController
         horizontal = 0;
         Stop();
         rb.isKinematic = true;
+        GameManager.instance.gameObject.GetComponent<AudioManager>().Play("Die");
         OnDie?.Invoke();
         foreach (IReset resettable in resettableObjects)
         {
