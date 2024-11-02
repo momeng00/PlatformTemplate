@@ -76,7 +76,7 @@ public abstract class CharacterController : MonoBehaviour
             }
         }
     }
-    [HideInInspector] public float moveSpeed= 10f;
+    [HideInInspector] public float moveSpeed;
     public bool isMovable;
     public Vector2 move;
     public Rigidbody2D rb;
@@ -96,6 +96,7 @@ public abstract class CharacterController : MonoBehaviour
     protected virtual void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        moveSpeed = 8f;
     }
 
     // Update is called once per frame
