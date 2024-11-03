@@ -12677,7 +12677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb399eeb5ad0ef443a1b4910c6efe9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Ending
+  nextScene: GameJam_Stage3
   soundVolume: 0.5
 --- !u!4 &1705794774
 Transform:
