@@ -43,7 +43,7 @@ public class PlayerController : CharacterController
         RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.2f, groundMask);
         if(topHit)
         {
-            rb.AddForce(Vector2.right * direction *-2f,ForceMode2D.Impulse);
+            rb.AddForce(Vector2.right * direction *-3f,ForceMode2D.Impulse);
         }
     }
 

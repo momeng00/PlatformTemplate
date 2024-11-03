@@ -33,6 +33,12 @@ EditorBuildSettings:
     path: Assets/ArtTraining/5. Scene/GameJam_Stage3_1.unity
     guid: 413738f662fdf2f499d7d3d79fbb8017
   - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage3_2.unity
+    guid: 1dca11bf353203148b810d5ce4786f2a
+  - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage_End.unity
+    guid: 80ebd660591903d488566e48c538ade3
+  - enabled: 1
     path: Assets/ArtTraining/5. Scene/Template/Ending.unity
     guid: ab360dadf6d35ae4ca9b8d7a1b35a9c9
   m_configObjects: {}

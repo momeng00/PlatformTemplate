@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
             if (_score >= 2)
             {
                 gameObject.GetComponent<AudioManager>().Play("Clear");
+                transition.GetComponent<Animator>().Play("Transition_Fadein");
                 Invoke("NextScene",0.9f);
             }
 
@@ -51,5 +52,9 @@ public class GameManager : MonoBehaviour
     {
         ClearGameManager(); 
         SceneManager.LoadSceneAsync(nextScene);
+    }
+    private void Start()
+    {
+        transition.GetComponent<Animator>().Play("Transition_Fadeout");
     }
 }

@@ -110,7 +110,7 @@ public class CharacterPlayEnd : MonoBehaviour
             }
             else
             {
-                addWidth = horizontal > 0 ? 5f : -5f;
+                addWidth = horizontal > 0 ? 5f : 0f;
             }
             foreach (RectTransform v in UIWidth)
             {
@@ -136,7 +136,7 @@ public class CharacterPlayEnd : MonoBehaviour
             }
             else
             {
-                addHeight = horizontal > 0 ? 3f : -3f; ;
+                addHeight = horizontal > 0 ? 3f : 0f;
             }
             foreach (RectTransform v in UIHeight)
             {
