@@ -7,6 +7,7 @@ public class StartTemp : MonoBehaviour
 {
     public string sceneName;
 
+
     private void Start()
     {
         Invoke("NextScene", 40f);

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -50,11 +51,16 @@ public class GameManager : MonoBehaviour
     }
     public void NextScene()
     {
-        ClearGameManager(); 
+        ClearGameManager();
+        if( BGMPlayer.instance != null && nextScene == "GameJam_Stage_End")
+        {
+            BGMPlayer.instance.flag = true;
+        }
         SceneManager.LoadSceneAsync(nextScene);
     }
     private void Start()
     {
+        
         transition.GetComponent<Animator>().Play("Transition_Fadeout");
     }
 }

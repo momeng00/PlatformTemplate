@@ -1425,7 +1425,7 @@ MonoBehaviour:
   m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 257
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
@@ -5855,6 +5855,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6c80f13d18aa94aa3a419bb0b95220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flag: 0
+  sound:
+    name: BGM
+    clip: {fileID: 8300000, guid: 1f52a4035aa7ba1458b65da102efdd4e, type: 3}
+    source: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!224 &4424160549458320428
 RectTransform:
   m_ObjectHideFlags: 0

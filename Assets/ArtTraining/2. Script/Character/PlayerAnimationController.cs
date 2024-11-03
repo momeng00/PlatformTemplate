@@ -99,6 +99,7 @@ public class PlayerAnimationController : AnimationController
             }
         }
         EnterState(nextState);
+
     }
     public void EnterState(PlayerState state)
     {
