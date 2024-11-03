@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public RectTransform transition;
     private static GameManager _instance;
     public static GameManager instance
     {

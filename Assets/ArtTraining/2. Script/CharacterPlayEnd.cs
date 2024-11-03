@@ -60,7 +60,7 @@ public class CharacterPlayEnd : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
-        if (horizontal !=0)
+        if (horizontal != 0)
         {
             if (isRun)
             {
@@ -81,7 +81,15 @@ public class CharacterPlayEnd : MonoBehaviour
         }
         if (isMovable)
         {
-            move = new Vector2(horizontal * moveSpeed, 0.0f);
+            if (horizontal >= 0)
+            {
+                move = new Vector2(horizontal * moveSpeed, 0.0f);
+            }
+            else
+            {
+                move = Vector2.zero;
+            }
+            
         }
     }
     private void FixedUpdate()

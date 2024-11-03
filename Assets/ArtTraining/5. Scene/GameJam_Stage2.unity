@@ -1614,7 +1614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAE08\uC77C \uD68C\uC758\uC2E4\uC740 3\uCE35  \uC778\uC0AC\uD300 \uD68C\uC758\uC2E4\uC5D0\uC11C 
+  m_text: "\uAE08\uC77C \uD68C\uC758\uB294 3\uCE35  \uC778\uC0AC\uD300 \uD68C\uC758\uC2E4\uC5D0\uC11C 
     \uC9C4\uD589\uD558\uAE30\uB85C \uD588\uC2B5\uB2C8\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1e1dbae09b348745ac0fd48f742e90c, type: 2}
@@ -3062,7 +3062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 311414852}
-  textValue: "\uAE08\uC77C \uD68C\uC758\uC2E4\uC740 3\uCE35  \uC778\uC0AC\uD300 \uD68C\uC758\uC2E4\uC5D0\uC11C 
+  textValue: "\uAE08\uC77C \uD68C\uC758\uB294 3\uCE35  \uC778\uC0AC\uD300 \uD68C\uC758\uC2E4\uC5D0\uC11C 
     \uC9C4\uD589\uD558\uAE30\uB85C \uD588\uC2B5\uB2C8\uB2E4."
 --- !u!61 &637400562
 BoxCollider2D:
@@ -12548,6 +12548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb399eeb5ad0ef443a1b4910c6efe9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
   nextScene: GameJam_Stage3
   soundVolume: 0.5
 --- !u!4 &1705794774
