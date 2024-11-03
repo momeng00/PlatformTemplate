@@ -12,11 +12,26 @@ EditorBuildSettings:
     path: Assets/ArtTraining/5. Scene/GameJam_Stage0.unity
     guid: 9b61dc50d59cafc4bb48a52f738daa51
   - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage0_1.unity
+    guid: f1e799fe04ec60b44bf1f6aeee415dfb
+  - enabled: 1
     path: Assets/ArtTraining/5. Scene/GameJam_Stage1.unity
+    guid: 147e7b337e612f3469b739c803c5baf5
+  - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage1_1.unity
     guid: f8a4d6be42e12764485d7a7e752a4d10
+  - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage1_2.unity
+    guid: 8316381e861ac0840948617958b571ef
   - enabled: 1
     path: Assets/ArtTraining/5. Scene/GameJam_Stage2.unity
     guid: c40490f9bff50d642889f2929cd4a638
+  - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage3.unity
+    guid: 397670acdeedfc04e92c3df3afee0e57
+  - enabled: 1
+    path: Assets/ArtTraining/5. Scene/GameJam_Stage3_1.unity
+    guid: 413738f662fdf2f499d7d3d79fbb8017
   - enabled: 1
     path: Assets/ArtTraining/5. Scene/Template/Ending.unity
     guid: ab360dadf6d35ae4ca9b8d7a1b35a9c9

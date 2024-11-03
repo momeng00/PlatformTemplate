@@ -1,0 +1,4452 @@
+fileFormatVersion: 2
+guid: 3d40e40dd7d13f842a55d57c73d18fc5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22120cc425796c48b5dde45f1b08727
+      internalID: -1452103521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1ddb83892658c44b8257ab7ab8f5cd
+      internalID: 1674288374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb3509ebf0c0f64690aad3290f06f88
+      internalID: 876104272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810e68285c4c47549b856cfe0ecc140f
+      internalID: -1889843072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969c6afee28d4ac4e9786fd660debcba
+      internalID: -498134613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdc2f082341ecc459a54d2b93aa3aea
+      internalID: -1881040990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27323563c2fc9945b1bf42212ff5e67
+      internalID: 1815542960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc250835c086574298603b947b29881
+      internalID: 1881983439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64742b0c1e037d44c955ca5d31d5b205
+      internalID: -1471693024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95009c1cdf50f41a98972336fda1a4
+      internalID: 808538700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e75db02a0769489a1494c52b23e93
+      internalID: -1648406601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e70b28444f1c4048b990e27a856d748
+      internalID: 1005605571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25afb2df11c5ddb46bf94ecca8b6f2f4
+      internalID: -91611841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411b489050b8a8e4e914626efdd7bb40
+      internalID: -665855064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225e8fe7baa02e9469498a9d68745caa
+      internalID: -478799799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1824d202c24b34b9a7797dd6db6a07
+      internalID: 739194705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f4a2e14d8df746af5cf1c9704f3ce
+      internalID: -2120609398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788c91965c5c034687f5a1bea2aef9c
+      internalID: 1994927308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b208a5e10e0bf45b1643432c3f10a5
+      internalID: 1303392792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d735293d4fdd14cb7655d5fa922b1e
+      internalID: 80730747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19e4c015498ff6489d06c053c27c8c8
+      internalID: 1076634580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb87f5934d2b924cab2491ffbfb4f1f
+      internalID: 1301558060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a988d8fbd9f03458e75a3304a140fe
+      internalID: 1978025548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2461a23a8be9ee4c84a2e756b696df2
+      internalID: -1354730602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd09a0bd6c4742e4792665fe33490dfd
+      internalID: -1518492889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1bc8e0f9ae3bf47ae5c5ba5da35540
+      internalID: 738940169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e272a8c6a1d994e87420e1962ca2e8
+      internalID: -2060966569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe4bdc1d0dfb1f47b37ca2b1472d38e
+      internalID: -2127375107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7620e36014c4c47b17ec2e21f75a26
+      internalID: -681704425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7c974f5c27ec64e8781d9da465f028
+      internalID: 1421107181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a461a65f5291142a324200e77bf012
+      internalID: 682426141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bee334186276d4497f4da84ff4a449
+      internalID: 101447306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5e7c73e3b29374fad53dd48bcf2e61
+      internalID: -1624027075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_33
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b15000359b43489b4edbe4c6792ab
+      internalID: -757277693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03aea1900c6bf349a393948cd251ec1
+      internalID: 222752976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb151e5065972f747b8c472d32314cc0
+      internalID: 1173763192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b0b9ba4a6a374aaf839323ad0a90f
+      internalID: 1716055239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7db33771b6e44042a811f63521204fd
+      internalID: 450966628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527d15b5fe92c84fac713d6f60b718b
+      internalID: 2001069913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0ae76a77ca39a4989071b8d9dacbe4
+      internalID: 880011939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_40
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ee940b39ac73b4d87f74508a0d32ff
+      internalID: -607863759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_41
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0adf966970d21847acb4e095e2955c2
+      internalID: 1223508829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7710dde1971eb4c4b9372a7c2112f1ab
+      internalID: 1339604239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_43
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7d19dff9bd83440bae26507ad3695e
+      internalID: -795428558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915521df16c6c9443a316773a76ec2b1
+      internalID: -664890511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_45
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269c51df5b415ba47b359f94a9ed5609
+      internalID: 2074551102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6716fc2c8a6ee45ba78f2f5d0e1a2b
+      internalID: -1029925192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_47
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb200b552cbcda4489b3515dc472347
+      internalID: 423543255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c8a2d9ba7e3054480d98104124f0ec
+      internalID: -899858762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d94fd1ba3b6ad64a96589d6615cf16a
+      internalID: 1152086734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb680bbdea2f8441bbf713d73948358
+      internalID: -924845613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63063739f102acd4cb33b23a8c93bf9b
+      internalID: 18364565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_52
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7064965a1428f2d47bba0832afb0518c
+      internalID: 1731526747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_53
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b407c973c2806424fbd506a3fb6c1a97
+      internalID: -1711081369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_54
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e144aeb8530fe9b458c22d938eda37b7
+      internalID: -1850261758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd5bbc20b95675449900ac90b8e8f43
+      internalID: -1425000877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cc662a5914b634db1dc42b7639f721
+      internalID: 1253016812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd898d72f11274e418fab30246c405ac
+      internalID: -462819078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_58
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf44e67c6f052064ca109c0a5b3bf431
+      internalID: -1351598992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9659ab783d4e22d418cf5ad847b8cf13
+      internalID: 1771119223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae11c85f8f988438c6919bd83700e4
+      internalID: -1058490462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9967cbb3c540c7249904051fff95ce6d
+      internalID: -1247126957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_62
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0bc707b67142647839d727a39ccab5
+      internalID: 38179477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8ce27a4bdf15f4d8d90d9aa1d70752
+      internalID: -1150551855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c3279cdc029a54391589cdcb9226af
+      internalID: -670927904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599e3261b5c768a44931fed83a863325
+      internalID: -722183427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_66
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f04c4a9f1940a44b0bef4105136087
+      internalID: 898933315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_67
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec805c462eba2a4d83bbd21a06b777f
+      internalID: 2021769042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_68
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03fc5da9ae82cc408379c6ee68d7b6a
+      internalID: -2069323757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_69
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d07d8a652d9fb4fba031883c0fd615
+      internalID: 323961455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f6ae393d4abdc4ba175f2a4371cd61
+      internalID: -2091300525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab78fd3854cc51442beeca66cae7fe5f
+      internalID: 529499785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bcad57fbe21eb4f807046918092e55
+      internalID: -52434448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_73
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccee3175656c224396776003c56cb6a
+      internalID: 249691445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523cff188c78d2748b347a05a19fc125
+      internalID: 1544494931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0098cc827f87c4791496cdc49b6b8e
+      internalID: 988099044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_76
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e2d4a725a51864692ee351ef64ead2
+      internalID: -2066680082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_77
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9858b682d209934999a8b7e1c47f9eb
+      internalID: 446242552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec22e869ce9534aa5b32d64f6bacac
+      internalID: -1205265057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_79
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62fc57c051dda14b93502a3bf527b64
+      internalID: -135092246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_80
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35f8e26107e1f144a29564f3090ef96
+      internalID: -1473064790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64d36b028fbb2347894235c654db410
+      internalID: 1568204913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_82
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7605a239a174614e960b335a903a28c
+      internalID: 964743127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_83
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6549d9acf0732646b670396a5c9bb32
+      internalID: -504488790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0578f6823f8272442bb83472297c14e3
+      internalID: 608720675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b02baeb33861a41a0056ea442f9588
+      internalID: 1466917349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d41d91ec4953f4eb7b0b9e7dd4901a
+      internalID: -1478772338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_87
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d563f86f21f9a543a930e2accf7ee9a
+      internalID: 1989671001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f972e28d024f4e82d690f7f473f6f
+      internalID: -539883155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_89
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9addbec9b8757f41b73132d9bc78b3f
+      internalID: 1718939519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_90
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0359415627c2e73489631903f4503696
+      internalID: -957012779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_91
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190e72b262628224a8ca9e9eea667653
+      internalID: 555175199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e599c64b51741e46ad02f2c63ce5771
+      internalID: 1476060088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_93
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efd2c721b3d7754f942f546b33036ff
+      internalID: -1148928874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_94
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b887af21de3a4da9edddb0231647e
+      internalID: 2042546123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_95
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446165301bbbc3341bf9e6706c5e7f03
+      internalID: -1437048394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_96
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34471ec44478c3e4ca5a64902471ac17
+      internalID: 41085357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_97
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338032f56404e8f458b07644c24ec5eb
+      internalID: -264067052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137f64d0e801d1840a24e1f934153a61
+      internalID: -1679243192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_99
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1d1f19d815c3642a9a38acda721185
+      internalID: 433289347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_100
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df076d31f28fec46a2c39fcff864ea7
+      internalID: 881752229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_101
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6d6b353282a8f4a9981463d7866bd6
+      internalID: 1839746736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ca499ce0ae4a945a694f8433cb3650
+      internalID: -859687953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_103
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568e2d8273c4ac84f90a2063a317e6f0
+      internalID: -1303486281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_104
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec5d254bf0599418044519bdf9061b
+      internalID: 763710660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_105
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7791e71e8b8a6e449477f4154fcf87f
+      internalID: 1941790643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf8905ebc516444686b48d172fa1d81
+      internalID: 2017814671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_107
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b958f4141925f9645aefb808b00dbc28
+      internalID: 1913376572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_108
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c34a5ac1f38124f9f53dd8b439103a
+      internalID: 436179405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_109
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602b23f62ed4040498d35655e7333c3b
+      internalID: -1790187441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1ad5a096cfb2f49814d3395bb62f1e
+      internalID: -2192289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_111
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc7e9dd7ca04a4392a11ea8a773853
+      internalID: -504198068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8513872eb458cce44b47f44b06b2d950
+      internalID: -882224985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36910220449004a4593b9d17ca492601
+      internalID: 765038054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_114
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fb6e97113150040ad775c52c74ceec
+      internalID: 184950832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bd7508e61b9f6439403fa44acc7e5d
+      internalID: 437306842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_116
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d32530d28b4ffe47b4418240e990c7b
+      internalID: -634284839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_117
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa439d454d2eac4bbc9a503f4dec7a4
+      internalID: 961819234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_118
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2303053442260cf4381ff02963739f46
+      internalID: -1197942809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_119
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7028173ff41144295eb3a2fb23cacb
+      internalID: -603042936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_120
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc118017e540d04588db3f59e1bd75a
+      internalID: -2031470885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_121
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d1668345f40434b91c4b8fed09deca
+      internalID: -2115329803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_122
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077d4067b8e2cf84597a0e061efe09a8
+      internalID: -500498685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_123
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802ad3fa696b3e54f98ee3bb16294e6e
+      internalID: -801060156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_124
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717bae11274edcb4697eadfab5b8fbfc
+      internalID: 509330732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_125
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbef0c4ec0a0c294cb8411c5dba7046a
+      internalID: 2095848564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ca2d38bcc1da1419c69acf57aec989
+      internalID: 1524670490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_127
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1352463a41144693708501c6a7523
+      internalID: -749073400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_128
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb0b6f1678c9e5488c46d7923014875
+      internalID: 1914645122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_129
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13888215074c9b541b0d35c50d97d939
+      internalID: 1005137896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_130
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dcc061dfa4667459b9d3d3e7726996
+      internalID: 1681261229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_131
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323f583ee73b5414ba1257b49d711b95
+      internalID: 1659241903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_132
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef63733540ddf94f94bb6fe47979273
+      internalID: -1112346222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_133
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08b127c81b23a148a1e4fb89a8dcc4c
+      internalID: -1117281438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_134
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575e098958c0c149a0d996ff99b32d6
+      internalID: -1389119567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_135
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d593fdda52ba8740913070bcbd3dda4
+      internalID: -1204672165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_136
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b85579d6d08024fb8885cc7ad84e6e
+      internalID: 474468131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_137
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce09a90d94f9094093aad8294dca0ce
+      internalID: -1856741390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_138
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dde18d5c88553345897b5d7bfa00fb3
+      internalID: 1077499924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_139
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e144a097ba888144aba52fccd0bb490
+      internalID: -916851531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb094c186466bbd428243ccbcb9fef0c
+      internalID: -221124484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_141
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3b33dbf82d27a4484cf6db408b05ad
+      internalID: -609446418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_142
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed8b47ccee72d49940b32a90735bc0
+      internalID: -688755906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_143
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398a3ad9cf5cf3418aae6ec2811d699
+      internalID: 1731371697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_144
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca0c68fd4b2d6f4ea0a2d3b0297854c
+      internalID: 837466256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_145
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5a6fa3803eb034a9d604cc593e5a20
+      internalID: 1054333421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_146
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846f80332fd2ec748ac56c9df29a9c33
+      internalID: -1795248675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_147
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6420d60b2b95dde4c9a7ad18caa2b00d
+      internalID: -642282500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4893d8f8cb56d4295b86c333416b8b
+      internalID: -1065123829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_149
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d070860a0cd2ef44082ebdbe00de9d14
+      internalID: 103684689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_150
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277b978ecd6762a48ae804d12f899458
+      internalID: -532937780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_151
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bc486dc82b19940bf8a52f5b691179
+      internalID: -365892326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_152
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31246225d989c7a4e87073fd2deaa70d
+      internalID: 488998830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_153
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cc30d0c064eab4a94c04190c474795
+      internalID: 493510138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa25a9d7e38213f48ac0f0ef765fb455
+      internalID: -998754118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_155
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576e353931a683438c95ef0c85ff723
+      internalID: 919014630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_156
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8a14e6ddfc6504d92931c88c726775
+      internalID: -147467809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_157
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5d018a5647f5941a2f8a1032e3f426
+      internalID: -1092229305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_158
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228a67a40595b78408bf5d9797c4b749
+      internalID: -274658429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_159
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e8f8fb7d3be1418106d8614c4f85b
+      internalID: 692092949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_160
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97586f4e6f1173f4392ea6ae8107523d
+      internalID: 810079948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_161
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58af9e1ee8ff3584db80c9c0204985ba
+      internalID: 150644388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1c645a3c9c3bc418f500f64de5bbe7
+      internalID: 414592755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_163
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9d8785f9d0d0d4a88e815d29e578a1
+      internalID: 1371926650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_164
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be930da075d3914da77b0dee7e527c6
+      internalID: -946167827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_165
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb37e83bdfa994783cf9d48c4f0729
+      internalID: 583292791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_166
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5474cbe72585854083b9fade4f3724a
+      internalID: -1048723533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_167
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db60b410c09c363499387d52f3fa7bbe
+      internalID: 1781319255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b90e1d8ea5cba4c8e6f8bbfc8377c9
+      internalID: 1750012964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_169
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea336e3caa9e8624cbc7705a0c94abc1
+      internalID: -1890546448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_170
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c939d675910df46a743ea7e1b29272
+      internalID: 342855764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_171
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842a2ad6a81d3fe4dadfab5f8953cf54
+      internalID: 2032178483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_172
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec598fe086bce945ad7f3dcb2c8e242
+      internalID: 1653166338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_173
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5047503d0e1ef6245afa9b8c2debbc78
+      internalID: 1323276858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_174
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68836b699c6cd324f9b3cc9b0df2ce3b
+      internalID: 1338796708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_175
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8f5bf018a346c4f95841125623510e
+      internalID: -624303887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_176
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fa191404204d549b6df91994178dd2
+      internalID: -1319841119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_177
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a550f95f9b63f4b42b813344711ae0af
+      internalID: 465504750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_178
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572d1faba119f534cbf90beaa6209ed6
+      internalID: 1334851293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_179
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78922d3926e88fd439cbb91432620afe
+      internalID: -133673123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_180
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0f2187cf6d70a40917cc5b1a5da8f2
+      internalID: -186885088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_181
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3856a6b7b53111e43948f42c2e871cb9
+      internalID: -434381775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09a54814a328844d98adf965e901c5e
+      internalID: 1897409764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_183
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb4bc7f867a6644a6c93c8f9229f28
+      internalID: -2006253445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_184
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3674a316d3a4748873f59d2ddb776a
+      internalID: 102057549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_185
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917f994d025838640b5ee166df077e0e
+      internalID: 394701344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb44499c0437a6498c22b738d906107
+      internalID: -565908699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_187
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9387e9792a1bda74d881211488592f95
+      internalID: 1218114198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_188
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e0cd498dc11cb49a0fe595e00dc972
+      internalID: 510920304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_189
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a3eabec8d535b4f98337fc0f38c062
+      internalID: -1548126219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_190
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e856a7f57ec3346a3d1c3306798fa3
+      internalID: 1301943701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_191
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741bd3ac449c244489589342d6c5a490
+      internalID: -444318046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_192
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544f165973a9884a8ba0ac1905eccfd
+      internalID: 59259024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_193
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8ea08f7686da745932f57f698e131c
+      internalID: 1064431281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_194
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bebb3028ab98e34f88eda71e5f4188b
+      internalID: 1908923036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Brick_MidNight_195
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97084047732f4e469f7511d490e889b
+      internalID: 807886367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tilemap_Brick_MidNight_0: -1452103521
+      Tilemap_Brick_MidNight_1: 1674288374
+      Tilemap_Brick_MidNight_10: -1648406601
+      Tilemap_Brick_MidNight_100: 881752229
+      Tilemap_Brick_MidNight_101: 1839746736
+      Tilemap_Brick_MidNight_102: -859687953
+      Tilemap_Brick_MidNight_103: -1303486281
+      Tilemap_Brick_MidNight_104: 763710660
+      Tilemap_Brick_MidNight_105: 1941790643
+      Tilemap_Brick_MidNight_106: 2017814671
+      Tilemap_Brick_MidNight_107: 1913376572
+      Tilemap_Brick_MidNight_108: 436179405
+      Tilemap_Brick_MidNight_109: -1790187441
+      Tilemap_Brick_MidNight_11: 1005605571
+      Tilemap_Brick_MidNight_110: -2192289
+      Tilemap_Brick_MidNight_111: -504198068
+      Tilemap_Brick_MidNight_112: -882224985
+      Tilemap_Brick_MidNight_113: 765038054
+      Tilemap_Brick_MidNight_114: 184950832
+      Tilemap_Brick_MidNight_115: 437306842
+      Tilemap_Brick_MidNight_116: -634284839
+      Tilemap_Brick_MidNight_117: 961819234
+      Tilemap_Brick_MidNight_118: -1197942809
+      Tilemap_Brick_MidNight_119: -603042936
+      Tilemap_Brick_MidNight_12: -91611841
+      Tilemap_Brick_MidNight_120: -2031470885
+      Tilemap_Brick_MidNight_121: -2115329803
+      Tilemap_Brick_MidNight_122: -500498685
+      Tilemap_Brick_MidNight_123: -801060156
+      Tilemap_Brick_MidNight_124: 509330732
+      Tilemap_Brick_MidNight_125: 2095848564
+      Tilemap_Brick_MidNight_126: 1524670490
+      Tilemap_Brick_MidNight_127: -749073400
+      Tilemap_Brick_MidNight_128: 1914645122
+      Tilemap_Brick_MidNight_129: 1005137896
+      Tilemap_Brick_MidNight_13: -665855064
+      Tilemap_Brick_MidNight_130: 1681261229
+      Tilemap_Brick_MidNight_131: 1659241903
+      Tilemap_Brick_MidNight_132: -1112346222
+      Tilemap_Brick_MidNight_133: -1117281438
+      Tilemap_Brick_MidNight_134: -1389119567
+      Tilemap_Brick_MidNight_135: -1204672165
+      Tilemap_Brick_MidNight_136: 474468131
+      Tilemap_Brick_MidNight_137: -1856741390
+      Tilemap_Brick_MidNight_138: 1077499924
+      Tilemap_Brick_MidNight_139: -916851531
+      Tilemap_Brick_MidNight_14: -478799799
+      Tilemap_Brick_MidNight_140: -221124484
+      Tilemap_Brick_MidNight_141: -609446418
+      Tilemap_Brick_MidNight_142: -688755906
+      Tilemap_Brick_MidNight_143: 1731371697
+      Tilemap_Brick_MidNight_144: 837466256
+      Tilemap_Brick_MidNight_145: 1054333421
+      Tilemap_Brick_MidNight_146: -1795248675
+      Tilemap_Brick_MidNight_147: -642282500
+      Tilemap_Brick_MidNight_148: -1065123829
+      Tilemap_Brick_MidNight_149: 103684689
+      Tilemap_Brick_MidNight_15: 739194705
+      Tilemap_Brick_MidNight_150: -532937780
+      Tilemap_Brick_MidNight_151: -365892326
+      Tilemap_Brick_MidNight_152: 488998830
+      Tilemap_Brick_MidNight_153: 493510138
+      Tilemap_Brick_MidNight_154: -998754118
+      Tilemap_Brick_MidNight_155: 919014630
+      Tilemap_Brick_MidNight_156: -147467809
+      Tilemap_Brick_MidNight_157: -1092229305
+      Tilemap_Brick_MidNight_158: -274658429
+      Tilemap_Brick_MidNight_159: 692092949
+      Tilemap_Brick_MidNight_16: -2120609398
+      Tilemap_Brick_MidNight_160: 810079948
+      Tilemap_Brick_MidNight_161: 150644388
+      Tilemap_Brick_MidNight_162: 414592755
+      Tilemap_Brick_MidNight_163: 1371926650
+      Tilemap_Brick_MidNight_164: -946167827
+      Tilemap_Brick_MidNight_165: 583292791
+      Tilemap_Brick_MidNight_166: -1048723533
+      Tilemap_Brick_MidNight_167: 1781319255
+      Tilemap_Brick_MidNight_168: 1750012964
+      Tilemap_Brick_MidNight_169: -1890546448
+      Tilemap_Brick_MidNight_17: 1994927308
+      Tilemap_Brick_MidNight_170: 342855764
+      Tilemap_Brick_MidNight_171: 2032178483
+      Tilemap_Brick_MidNight_172: 1653166338
+      Tilemap_Brick_MidNight_173: 1323276858
+      Tilemap_Brick_MidNight_174: 1338796708
+      Tilemap_Brick_MidNight_175: -624303887
+      Tilemap_Brick_MidNight_176: -1319841119
+      Tilemap_Brick_MidNight_177: 465504750
+      Tilemap_Brick_MidNight_178: 1334851293
+      Tilemap_Brick_MidNight_179: -133673123
+      Tilemap_Brick_MidNight_18: 1303392792
+      Tilemap_Brick_MidNight_180: -186885088
+      Tilemap_Brick_MidNight_181: -434381775
+      Tilemap_Brick_MidNight_182: 1897409764
+      Tilemap_Brick_MidNight_183: -2006253445
+      Tilemap_Brick_MidNight_184: 102057549
+      Tilemap_Brick_MidNight_185: 394701344
+      Tilemap_Brick_MidNight_186: -565908699
+      Tilemap_Brick_MidNight_187: 1218114198
+      Tilemap_Brick_MidNight_188: 510920304
+      Tilemap_Brick_MidNight_189: -1548126219
+      Tilemap_Brick_MidNight_19: 80730747
+      Tilemap_Brick_MidNight_190: 1301943701
+      Tilemap_Brick_MidNight_191: -444318046
+      Tilemap_Brick_MidNight_192: 59259024
+      Tilemap_Brick_MidNight_193: 1064431281
+      Tilemap_Brick_MidNight_194: 1908923036
+      Tilemap_Brick_MidNight_195: 807886367
+      Tilemap_Brick_MidNight_2: 876104272
+      Tilemap_Brick_MidNight_20: 1076634580
+      Tilemap_Brick_MidNight_21: 1301558060
+      Tilemap_Brick_MidNight_22: 1978025548
+      Tilemap_Brick_MidNight_23: -1354730602
+      Tilemap_Brick_MidNight_24: -1518492889
+      Tilemap_Brick_MidNight_25: 738940169
+      Tilemap_Brick_MidNight_26: -2060966569
+      Tilemap_Brick_MidNight_27: -2127375107
+      Tilemap_Brick_MidNight_28: -681704425
+      Tilemap_Brick_MidNight_29: 1421107181
+      Tilemap_Brick_MidNight_3: -1889843072
+      Tilemap_Brick_MidNight_30: 682426141
+      Tilemap_Brick_MidNight_31: 101447306
+      Tilemap_Brick_MidNight_32: -1624027075
+      Tilemap_Brick_MidNight_33: -757277693
+      Tilemap_Brick_MidNight_34: 222752976
+      Tilemap_Brick_MidNight_35: 1173763192
+      Tilemap_Brick_MidNight_36: 1716055239
+      Tilemap_Brick_MidNight_37: 450966628
+      Tilemap_Brick_MidNight_38: 2001069913
+      Tilemap_Brick_MidNight_39: 880011939
+      Tilemap_Brick_MidNight_4: -498134613
+      Tilemap_Brick_MidNight_40: -607863759
+      Tilemap_Brick_MidNight_41: 1223508829
+      Tilemap_Brick_MidNight_42: 1339604239
+      Tilemap_Brick_MidNight_43: -795428558
+      Tilemap_Brick_MidNight_44: -664890511
+      Tilemap_Brick_MidNight_45: 2074551102
+      Tilemap_Brick_MidNight_46: -1029925192
+      Tilemap_Brick_MidNight_47: 423543255
+      Tilemap_Brick_MidNight_48: -899858762
+      Tilemap_Brick_MidNight_49: 1152086734
+      Tilemap_Brick_MidNight_5: -1881040990
+      Tilemap_Brick_MidNight_50: -924845613
+      Tilemap_Brick_MidNight_51: 18364565
+      Tilemap_Brick_MidNight_52: 1731526747
+      Tilemap_Brick_MidNight_53: -1711081369
+      Tilemap_Brick_MidNight_54: -1850261758
+      Tilemap_Brick_MidNight_55: -1425000877
+      Tilemap_Brick_MidNight_56: 1253016812
+      Tilemap_Brick_MidNight_57: -462819078
+      Tilemap_Brick_MidNight_58: -1351598992
+      Tilemap_Brick_MidNight_59: 1771119223
+      Tilemap_Brick_MidNight_6: 1815542960
+      Tilemap_Brick_MidNight_60: -1058490462
+      Tilemap_Brick_MidNight_61: -1247126957
+      Tilemap_Brick_MidNight_62: 38179477
+      Tilemap_Brick_MidNight_63: -1150551855
+      Tilemap_Brick_MidNight_64: -670927904
+      Tilemap_Brick_MidNight_65: -722183427
+      Tilemap_Brick_MidNight_66: 898933315
+      Tilemap_Brick_MidNight_67: 2021769042
+      Tilemap_Brick_MidNight_68: -2069323757
+      Tilemap_Brick_MidNight_69: 323961455
+      Tilemap_Brick_MidNight_7: 1881983439
+      Tilemap_Brick_MidNight_70: -2091300525
+      Tilemap_Brick_MidNight_71: 529499785
+      Tilemap_Brick_MidNight_72: -52434448
+      Tilemap_Brick_MidNight_73: 249691445
+      Tilemap_Brick_MidNight_74: 1544494931
+      Tilemap_Brick_MidNight_75: 988099044
+      Tilemap_Brick_MidNight_76: -2066680082
+      Tilemap_Brick_MidNight_77: 446242552
+      Tilemap_Brick_MidNight_78: -1205265057
+      Tilemap_Brick_MidNight_79: -135092246
+      Tilemap_Brick_MidNight_8: -1471693024
+      Tilemap_Brick_MidNight_80: -1473064790
+      Tilemap_Brick_MidNight_81: 1568204913
+      Tilemap_Brick_MidNight_82: 964743127
+      Tilemap_Brick_MidNight_83: -504488790
+      Tilemap_Brick_MidNight_84: 608720675
+      Tilemap_Brick_MidNight_85: 1466917349
+      Tilemap_Brick_MidNight_86: -1478772338
+      Tilemap_Brick_MidNight_87: 1989671001
+      Tilemap_Brick_MidNight_88: -539883155
+      Tilemap_Brick_MidNight_89: 1718939519
+      Tilemap_Brick_MidNight_9: 808538700
+      Tilemap_Brick_MidNight_90: -957012779
+      Tilemap_Brick_MidNight_91: 555175199
+      Tilemap_Brick_MidNight_92: 1476060088
+      Tilemap_Brick_MidNight_93: -1148928874
+      Tilemap_Brick_MidNight_94: 2042546123
+      Tilemap_Brick_MidNight_95: -1437048394
+      Tilemap_Brick_MidNight_96: 41085357
+      Tilemap_Brick_MidNight_97: -264067052
+      Tilemap_Brick_MidNight_98: -1679243192
+      Tilemap_Brick_MidNight_99: 433289347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
