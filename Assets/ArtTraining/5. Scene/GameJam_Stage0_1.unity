@@ -1437,7 +1437,7 @@ Transform:
   m_GameObject: {fileID: 486796187}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7894,7 +7894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb399eeb5ad0ef443a1b4910c6efe9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: GameJam_Stage0_2
+  transition: {fileID: 0}
+  nextScene: GameJam_Stage1
   soundVolume: 0.5
 --- !u!1 &1596832552807291011
 GameObject:
