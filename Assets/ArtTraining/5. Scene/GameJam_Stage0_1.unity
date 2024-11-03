@@ -7894,7 +7894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb399eeb5ad0ef443a1b4910c6efe9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: GameJam_Stage1
+  nextScene: GameJam_Stage0_2
   soundVolume: 0.5
 --- !u!1 &1596832552807291011
 GameObject:
