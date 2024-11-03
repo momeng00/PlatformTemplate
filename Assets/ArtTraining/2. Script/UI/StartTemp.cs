@@ -7,15 +7,10 @@ public class StartTemp : MonoBehaviour
 {
     public string sceneName;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        if (Input.anyKeyDown)
-        {
-            Invoke("NextScene", 1.3f);
-        }
+        Invoke("NextScene", 40f);
     }
-
     public void NextScene()
     {
         SceneManager.LoadSceneAsync(sceneName);
