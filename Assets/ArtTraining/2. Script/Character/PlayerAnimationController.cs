@@ -74,6 +74,7 @@ public class PlayerAnimationController : AnimationController
             {
                 isDirty = false;
                 player.transform.position=player.respawn;
+                player.col.enabled = true;
                 player.BlinkPlayer();
                 
             }

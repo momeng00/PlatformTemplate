@@ -1900,7 +1900,7 @@ MonoBehaviour:
   m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 256
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
@@ -2242,6 +2242,7 @@ MonoBehaviour:
   move: {x: 0, y: 0}
   rb: {fileID: 0}
   horizontal: 0
+  col: {fileID: 0}
   jumpForce: 13.8
   hasJumped: 0
   _switch: {fileID: 0}
@@ -5063,6 +5064,7 @@ MonoBehaviour:
   move: {x: 0, y: 0}
   rb: {fileID: 0}
   horizontal: 0
+  col: {fileID: 0}
   jumpForce: 13.8
   hasJumped: 0
   _switch: {fileID: 0}

@@ -6,6 +6,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class PlayerController : CharacterController
 {
+    public Collider2D col;
     IReset[] resettableObjects;
     public float jumpForce;
     public bool hasJumped;
@@ -40,16 +41,17 @@ public class PlayerController : CharacterController
     void CheckForWall()
     {
         Vector2 wallTopCastCenter = rb.position + Vector2.up * 0.5f;
-        RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.2f, groundMask);
+        RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.28f, groundMask);
         if(topHit)
         {
-            rb.AddForce(Vector2.right * direction *-3f,ForceMode2D.Impulse);
+            rb.position += new Vector2(direction * -0.28f, 0f);
         }
     }
 
     protected override void Start()
     {
         base.Start();
+        col = GetComponent<CapsuleCollider2D>();
         respawn = transform.position;
         isMovable = true;
         resettableObjects = FindObjectsOfType<MonoBehaviour>().OfType<IReset>().ToArray();
@@ -114,6 +116,7 @@ public class PlayerController : CharacterController
     public void ReSpawn()
     {
         isMovable = false;
+        col.enabled = false;
         horizontal = 0;
         Stop();
         rb.isKinematic = true;
