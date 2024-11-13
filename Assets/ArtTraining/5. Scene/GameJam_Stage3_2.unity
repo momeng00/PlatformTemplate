@@ -3944,6 +3944,7 @@ MonoBehaviour:
   move: {x: 0, y: 0}
   rb: {fileID: 0}
   horizontal: 0
+  col: {fileID: 0}
   jumpForce: 13.8
   hasJumped: 0
   _switch: {fileID: 0}
@@ -8392,6 +8393,7 @@ MonoBehaviour:
   move: {x: 0, y: 0}
   rb: {fileID: 0}
   horizontal: 0
+  col: {fileID: 0}
   jumpForce: 13.8
   hasJumped: 0
   _switch: {fileID: 0}
@@ -10391,7 +10393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &4855074116185284172
 GameObject:
   m_ObjectHideFlags: 0
