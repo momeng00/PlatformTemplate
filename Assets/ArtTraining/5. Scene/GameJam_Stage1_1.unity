@@ -5717,7 +5717,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &1303494469800008102
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6857,6 +6857,7 @@ GameObject:
   - component: {fileID: 3091811782777321403}
   - component: {fileID: 6434987157167359421}
   - component: {fileID: 8370018866624876011}
+  - component: {fileID: 8370018866624876012}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8195,6 +8196,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8370018866624876012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372152035696742571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e0a86ab3f29ef44b1c19e1a59fd689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 5263886697634395802}
+  players:
+  - {fileID: 978986068}
+  - {fileID: 1880552181}
 --- !u!1 &8419418139176731801
 GameObject:
   m_ObjectHideFlags: 0

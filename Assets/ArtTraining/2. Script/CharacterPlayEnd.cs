@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 public class CharacterPlayEnd : MonoBehaviour
 {
+    public Volume volume;
+    private Bloom bloom;
     public float moveSpeed;
     public bool isMovable;
     public Vector2 move;
@@ -18,6 +22,10 @@ public class CharacterPlayEnd : MonoBehaviour
 
     private void Start()
     {
+        if(volume != null)
+        {
+            volume.profile.TryGet(out bloom);
+        }
         if (isMovable)
         {
             StartCoroutine("ExpandWidthCoroutine");
@@ -49,7 +57,12 @@ public class CharacterPlayEnd : MonoBehaviour
     {
         if(collision.gameObject == Player)
         {
-            SceneManager.LoadSceneAsync("Ending");
+            StartCoroutine("ZoomOutCoroutine");
+            isMovable = false;
+            move = Vector2.zero;
+            Invoke("ZoomOutEnd",0.8f);
+            Debug.Log("접촉");
+            //SceneManager.LoadSceneAsync("Ending");
         }
     }
     public virtual void Move()
@@ -110,7 +123,7 @@ public class CharacterPlayEnd : MonoBehaviour
             }
             else
             {
-                addWidth = horizontal > 0 ? 5f : 0f;
+                addWidth = horizontal > 0 ? 2.5f : 0f;
             }
             foreach (RectTransform v in UIWidth)
             {
@@ -119,9 +132,46 @@ public class CharacterPlayEnd : MonoBehaviour
                
                 v.sizeDelta = new Vector2(targetWidth, v.sizeDelta.y);
             }
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.15f);
         }
         
+    }
+    public void ZoomOutEnd()
+    {
+        SceneManager.LoadSceneAsync("Ending");
+    }
+
+    IEnumerator ZoomOutCoroutine()
+    {
+        float initialHeight;
+        float targetHeight;
+        float addHeight;
+        float initialWidth;
+        float targetWidth;
+        float addWidth;
+        Debug.Log("ZoomOut 진입1");
+        for (int i=0; i <=160; i++)
+        {
+            Debug.Log("ZoomOut 진입2");
+            addHeight = -1.5f * 1.5f;
+            addWidth = -2.5f * 1.5f;
+            foreach (RectTransform v in UIWidth)
+            {
+                initialWidth = v.sizeDelta.x;
+                targetWidth = initialWidth + addWidth;
+
+                v.sizeDelta = new Vector2(targetWidth, v.sizeDelta.y);
+            }
+            foreach (RectTransform v in UIHeight)
+            {
+                initialHeight = v.sizeDelta.y;
+                targetHeight = initialHeight + addHeight;
+                v.sizeDelta = new Vector2(v.sizeDelta.x, targetHeight);
+            }
+            if (volume != null)
+                bloom.intensity.value += 0.08f;
+            yield return new WaitForSeconds(0.000625f);
+        }
     }
     IEnumerator ExpandHeightCoroutine()
     {
@@ -136,7 +186,7 @@ public class CharacterPlayEnd : MonoBehaviour
             }
             else
             {
-                addHeight = horizontal > 0 ? 3f : 0f;
+                addHeight = horizontal > 0 ? 1.5f : 0f;
             }
             foreach (RectTransform v in UIHeight)
             {
@@ -144,7 +194,7 @@ public class CharacterPlayEnd : MonoBehaviour
                 targetHeight = initialHeight + addHeight;
                 v.sizeDelta = new Vector2(v.sizeDelta.x, targetHeight);
             }
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.15f);
         }
 
     }
