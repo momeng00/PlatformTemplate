@@ -60,7 +60,7 @@ public class CharacterPlayEnd : MonoBehaviour
             StartCoroutine("ZoomOutCoroutine");
             isMovable = false;
             move = Vector2.zero;
-            Invoke("ZoomOutEnd",0.8f);
+            Invoke("ZoomOutEnd",0.78f);
             Debug.Log("¡¢√À");
             //SceneManager.LoadSceneAsync("Ending");
         }

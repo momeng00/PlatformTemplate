@@ -9,7 +9,14 @@ public class StartTemp1 : MonoBehaviour
 
     private void Start()
     {
-        Invoke("NextScene", 1f);
+
+    }
+    private void Update()
+    {
+        if (Input.anyKeyDown)
+        {
+            Invoke("NextScene", 1f);
+        }
     }
     public void NextScene()
     {

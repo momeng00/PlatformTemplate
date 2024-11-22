@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Switch : MonoBehaviour
+public class Switch : MonoBehaviour, IReset
 {
     [SerializeField]public Switchable[] block;
     public bool used = false;
@@ -69,5 +69,10 @@ public class Switch : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         
+    }
+
+    public void Reset()
+    {
+        used = false;
     }
 }

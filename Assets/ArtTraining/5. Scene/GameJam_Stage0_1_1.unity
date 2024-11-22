@@ -3478,6 +3478,9 @@ MonoBehaviour:
   _switchMask:
     serializedVersion: 2
     m_Bits: 512
+  _realGroundMask:
+    serializedVersion: 2
+    m_Bits: 0
   respawn: {x: 0, y: 0}
 --- !u!114 &978986069
 MonoBehaviour:
@@ -4246,7 +4249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1269032807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7108,6 +7111,9 @@ MonoBehaviour:
   _switchMask:
     serializedVersion: 2
     m_Bits: 512
+  _realGroundMask:
+    serializedVersion: 2
+    m_Bits: 0
   respawn: {x: 0, y: 0}
 --- !u!114 &1880552182
 MonoBehaviour:

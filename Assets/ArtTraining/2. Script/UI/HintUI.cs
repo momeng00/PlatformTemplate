@@ -5,7 +5,6 @@ using UnityEngine;
 public class HintUI : MonoBehaviour
 {
     public RectTransform canvas;
-    public PlayerController[] players;
     private bool _isShow;
     public bool isShow
     {
@@ -18,10 +17,6 @@ public class HintUI : MonoBehaviour
                 if(canvas != null)
                 {
                     canvas.gameObject.SetActive(true);
-                    foreach(var player in players)
-                    {
-                        player.isMovable = false;
-                    }
                 }
             }
             else
@@ -29,10 +24,6 @@ public class HintUI : MonoBehaviour
                 if (canvas != null)
                 {
                     canvas.gameObject.SetActive(false);
-                    foreach (var player in players)
-                    {
-                        player.isMovable = true;
-                    }
                 }
             }
         }
@@ -40,7 +31,7 @@ public class HintUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        isShow = false;
     }
 
     // Update is called once per frame

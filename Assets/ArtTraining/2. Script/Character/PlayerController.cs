@@ -14,6 +14,7 @@ public class PlayerController : CharacterController
     [SerializeField]private Switch _switch;
     [SerializeField]private float _switchDetectRange;
     [SerializeField]private LayerMask _switchMask;
+    [SerializeField] private LayerMask _realGroundMask;
     public Vector2 respawn;
     public event Action OnDie;
     public override void Move()
@@ -41,11 +42,12 @@ public class PlayerController : CharacterController
     void CheckForWall()
     {
         Vector2 wallTopCastCenter = rb.position + Vector2.up * 0.5f;
-        RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.28f, groundMask);
+        RaycastHit2D topHit = Physics2D.Raycast(wallTopCastCenter, Vector2.right * direction, 0.41f, _realGroundMask);
         if(topHit)
         {
-            rb.position += new Vector2(direction * -0.28f, 0f);
+            rb.position = new Vector2(rb.position.x + -direction * 0.16f, rb.position.y);
         }
+
     }
 
     protected override void Start()
@@ -82,7 +84,11 @@ public class PlayerController : CharacterController
 
         if (_switch && Input.GetKeyDown(KeyCode.E))
         {
-            _switch.Use();
+            if (isMovable)
+            {
+                _switch.Use();
+            }
+            
         }
     }
     protected override void FixedUpdate()
@@ -119,6 +125,7 @@ public class PlayerController : CharacterController
         col.enabled = false;
         horizontal = 0;
         Stop();
+        moveSpeed = 8f;
         rb.isKinematic = true;
         GameManager.instance.gameObject.GetComponent<AudioManager>().Play("Die");
         OnDie?.Invoke();
